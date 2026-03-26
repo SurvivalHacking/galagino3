@@ -93,7 +93,7 @@ V3.0 1/2/2026
  * Adding a Bluethoot Controller support, by Paolo Sambinello
  * Adding a Bluethooot enabler/disabler and increase lives to 5 by Marco Prunca
  * Adding a COIN animation by Marco Prunca
- *
+ 
 V3.1 11/3/2026
  * Added Lady Bug by Paolo Sambinello and Davide Gatti 
  * Added Gyrruss by Paolo Sambinello and Marco Prunca (Playable but with reducete audio features AY3-8910 #3 emulated instead of #5)
@@ -105,7 +105,7 @@ V3.1 11/3/2026
  * Detect automaticallu PCF8574 / PCF8574A
  * Added Name list at boot
  * Fixed conditional compile to allow remove/add games without problems
- *
+ 
 V3.2 26/4/2026 
  * Added QR code by Paolo Sambinello
  * Added Configuration Menu by Paolo Sambinello
