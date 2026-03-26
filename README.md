@@ -47,7 +47,13 @@ Like in the original from Till Harbaum's Galaga emulator, download these files:
     * [Anteater](https://www.google.com/search?q=anteater.zip+arcade+rom)
     * [BombJack](https://www.google.com/search?q=bombjack.zip+arcade+rom)
     * [MrDo](https://www.google.com/search?q=mrdo.zip+arcade+rom)
-
+    * [Lady Bug](https://www.google.com/search?q=ladybug.zip+arcade+rom)
+    * [Gyrrus](https://www.google.com/search?q=gyruss.zip+arcade+rom)
+    * [Time Pilot](https://www.google.com/search?q=timeplt.zip+arcade+rom)
+    * [Galaxian](https://www.google.com/search?q=glaxian.zip+arcade+rom)
+    * [MsPacman](https://www.google.com/search?q=mspacman.zip+arcade+rom)
+    * [SpaceInvaders](https://www.google.com/search?q=invaders.zip+arcade+rom)
+    * [Thuthankam](https://www.google.com/search?q=tutankhm.zip+arcade+rom) 
 
 Galagino uses code that is not freely available and thus not included in this repository. Preparing the firmware thus consists of a few additional steps:
 
@@ -80,3 +86,31 @@ Please ensure that the stripts run without errors!
 ## Attract mode
 
 In Attract mode, the machine cycles through all games if you do not touch the joystick. The games end after 5 minutes.
+
+## Revisions
+V3.0 1/2/2026  
+ * Conversion from speckhoiler VsCode version to Arduino Ide by Paolo Sambinello
+ * Adding a Bluethoot Controller support, by Paolo Sambinello
+ * Adding a Bluethooot enabler/disabler and increase lives to 5 by Marco Prunca
+ * Adding a COIN animation by Marco Prunca
+ *
+V3.1 11/3/2026
+ * Added Lady Bug by Paolo Sambinello and Davide Gatti 
+ * Added Gyrruss by Paolo Sambinello and Marco Prunca (Playable but with reducete audio features AY3-8910 #3 emulated instead of #5)
+ * Added MsPacman by Marco Prunca (work 100%)
+ * Added Pengo by Spek Hoiler and Paolo Sambinello and Marco Prunca
+ * Added Time Pilot by Marco Prunca
+ * Added Bagman By Spek Hoiler
+ * Added SpaceInvaders by Marco Prunca
+ * Detect automaticallu PCF8574 / PCF8574A
+ * Added Name list at boot
+ * Fixed conditional compile to allow remove/add games without problems
+ *
+V3.2 26/4/2026 
+ * Added QR code by Paolo Sambinello
+ * Added Configuration Menu by Paolo Sambinello
+ * Fixed insert coin animation by Marco Prunca
+ * Added Galaxian game by Marco Prunca (minor audio problems)
+ * Fixed Time Pilot game by Marco Prunca (minor glitch on clouds graphichs)
+ * Added Tutankham game by Marco Prunca (not playable at full speed)
+
