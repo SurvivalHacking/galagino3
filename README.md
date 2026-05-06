@@ -23,7 +23,7 @@ This port is NOT by the original author, so please do not bother him with issues
 * Display OLED SD1306 0.91" : https://s.click.aliexpress.com/e/_c4DUrL47 
 * Pulsanti 6x6x10 type 4 /PushButton: https://s.click.aliexpress.com/e/_c4eKUiJH
 * Resistenze SMD 4.7K 0805/Resistors: https://s.click.aliexpress.com/e/_DdHzrWd
-* Presa USB-C / Pmnt USB type C: https://s.click.aliexpress.com/e/_c4nfNYSV
+* USB-C da pannello 6P 5A/USB panel mount 6P 5A: https://s.click.aliexpress.com/e/_c3BmvvEj
 * Mini controller BT: https://s.click.aliexpress.com/e/_c2JYkcQF
 
 <img width="195" height="259" alt="tutankham" src="https://github.com/user-attachments/assets/95170047-8a0e-475a-87dd-19cfe15cdc7c" />
