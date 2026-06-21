@@ -15,7 +15,7 @@ This port is NOT by the original author, so please do not bother him with issues
 
 * Joystick 4 posizioni/4 way joystick type15: https://s.click.aliexpress.com/e/_c3Qgeoth
 * PCF8574P: https://s.click.aliexpress.com/e/_oDPPZgo
-* Modulo LVGL 2.4" ESP32-2432S024: https://s.click.aliexpress.com/e/_DECY96V
+* Modulo LVGL 2.4" ESP32-2432S024: https://s.click.aliexpress.com/e/_DECY96V (WARNING, can be shipped as the clone version ESP32-024 that need a different wirings and code, see below)
 * Connettori JST 1.25MM, 10Cm, 2P/Connector 2P: https://s.click.aliexpress.com/e/_DBzkKsz
 * Connettori JST 1.25MM, 10Cm, 4P/Connector 4P: https://s.click.aliexpress.com/e/_DF72N8Z
 * Batteria al Litio 3.7V 2000mA/lythium battery: https://s.click.aliexpress.com/e/_c3S7Fg07 oppure https://amzn.to/4b0yBZs
