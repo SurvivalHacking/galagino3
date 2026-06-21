@@ -26,6 +26,20 @@ This port is NOT by the original author, so please do not bother him with issues
 * USB-C da pannello 6P 5A/USB panel mount 6P 5A: https://s.click.aliexpress.com/e/_c3BmvvEj
 * Mini controller BT: https://s.click.aliexpress.com/e/_c2JYkcQF
 
+
+UPDATE !!!!
+Recently, some modules have been shipped that are clones of those used in the project and have a different display driver as well as different connections on the connectors.
+If your module is one of these (ESP32-024)—and you’ll notice right away because when you upload the code, the screen will be rotated 90°—then you must use the latest version of the code, 3.2A, and follow the new wiring diagram 3.0A. You’ll also need to modify the definition for your display type in the config.h file.
+
+Comment out the line: 
+// Option 1: Cheap Yellow Display (ESP32-2432S028R)
+// #define CHEAP_YELLOW_DISPLAY_CONF //  
+
+And uncomment the line:
+// Option 2: Cheap Yellow Display (ESP32-024)
+#define CHEAP_YELLOW_DISPLAY_CONF_ALT //  
+
+
 <img width="195" height="259" alt="tutankham" src="https://github.com/user-attachments/assets/95170047-8a0e-475a-87dd-19cfe15cdc7c" />
 <img width="210" height="240" alt="timeplt" src="https://github.com/user-attachments/assets/f26e6cde-2d99-4c92-a8b2-14a14e1cc538" />
 <img width="224" height="288" alt="theglob" src="https://github.com/user-attachments/assets/043d37cb-a3e7-42e2-aa3f-f124fb39538f" />
@@ -141,4 +155,7 @@ V3.2 26/4/2026
  * Added Galaxian game by Marco Prunca (minor audio problems)
  * Fixed Time Pilot game by Marco Prunca (minor glitch on clouds graphichs)
  * Added Tutankham game by Marco Prunca (not playable at full speed)
+
+V3.2A 21/06/2026
+ * Added support for alternate Cheap Yellow Display ESP32-024, need to move Joystick Connector to upper right connector integrating +3v3 wire. See new schematic 3.0A
 
